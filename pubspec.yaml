@@ -38,13 +38,8 @@ dependencies:
   firebase_auth: ^5.6.1
   cloud_firestore: ^5.6.10
   flutter_launcher_icons: ^0.13.1
-  wifi_scan: ^0.4.1+2
-  connectivity_plus: ^6.1.4
-  web_socket_channel: ^3.0.3
-  permission_handler: ^12.0.0+1
   hive: ^2.2.3
   hive_flutter: ^1.1.0
-  mqtt_client: ^10.10.0
   firebase_database: ^11.3.4
   http: ^1.4.0
 
@@ -63,10 +58,8 @@ dev_dependencies:
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/app_icon.jpg"
+  image_path: "assets/App icon.png"
   min_sdk_android: 21 # Optional: Minimum Android SDK version
-  adaptive_icon_background: "#FFFFFF" # Optional: Background color for Android adaptive icons
-  adaptive_icon_foreground: "assets/icons/app_icon.png" # Optional: Foreground for Android adaptive icons
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 

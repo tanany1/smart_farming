@@ -43,16 +43,7 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset('assets/icon.jpg', width: 200, height: 200),
-            const SizedBox(height: 24),
-            const Text(
-              'Smart Farming',
-              style: TextStyle(
-                fontSize: 28,
-                fontWeight: FontWeight.bold,
-                color: AppColors.black,
-              ),
-            ),
+            Image.asset('assets/Splash.png', width: 200, height: 200),
           ],
         ),
       ),

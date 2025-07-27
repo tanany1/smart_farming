@@ -75,7 +75,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       (data['temperature'] as num?)?.toDouble() ?? 0.0;
                   humidity = (data['humidity'] as num?)?.toDouble() ?? 0.0;
                   soilMoisture =
-                      (data['soil_moisture'] as num?)?.toDouble() ?? 0.0;
+                      (data['soil_moisture_1'] as num?)?.toDouble() ?? 0.0;
                   fanStatus = (data['fan_state'] as bool?) ?? false;
                   pumpStatus = (data['pump_state'] as bool?) ?? false;
                 });
@@ -171,7 +171,7 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: AppColors.primaryBlue,
         elevation: 0,
         title: const Text(
-          'Smart Farming',
+          'Smart Garden',
           style: TextStyle(
             color: AppColors.white,
             fontSize: 18,
